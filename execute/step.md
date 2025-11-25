@@ -19,14 +19,16 @@
 3. Appium: Start session
 
 **Format**
+```json
 {
-    "platformName": "Android",
-    "appium:automationName": "UiAutomator2",
-    "appium:appPackage": "com.saucelabs.mydemoapp.android",
-    "appium:appActivity": "com.saucelabs.mydemoapp.android.MainActivity",
-    "appium:ap": "/Users/doaitran/Documents/Personal/Smart Testing Lab/mda-2.2.0-25.apk",
-    "appium:noReset": true
+  "platformName": "Android",
+  "appium:automationName": "UiAutomator2",
+  "appium:appPackage": "com.saucelabs.mydemoapp.android",
+  "appium:appActivity": "com.saucelabs.mydemoapp.android.MainActivity",
+  "appium:ap": "/Users/doaitran/Documents/Personal/Smart Testing Lab/mda-2.2.0-25.apk",
+  "appium:noReset": true
 }
+```
 
 _Giải thích từng giá trị_
 - **platformName:** Hệ điều hành của thiết bị cần test: Android, iOS
