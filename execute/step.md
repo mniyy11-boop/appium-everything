@@ -1,4 +1,4 @@
-#RUN
+# RUN
 
 ## Step 1: Khởi động máy ảo - Android Studio
 - Prepare Android Device/Emulator
@@ -17,14 +17,15 @@
    adb devices
    ```
 3. Appium: Start session
+
 **Format**
 {
-  "platformName": "Android",
-  "appium:automationName": "UiAutomator2",
-  "appium:appPackage": "com.saucelabs.mydemoapp.android",
-  "appium:appActivity": "com.saucelabs.mydemoapp.android.MainActivity",
-  "appium:ap": "/Users/doaitran/Documents/Personal/Smart Testing Lab/mda-2.2.0-25.apk",
-  "appium:noReset": true
+    "platformName": "Android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appPackage": "com.saucelabs.mydemoapp.android",
+    "appium:appActivity": "com.saucelabs.mydemoapp.android.MainActivity",
+    "appium:ap": "/Users/doaitran/Documents/Personal/Smart Testing Lab/mda-2.2.0-25.apk",
+    "appium:noReset": true
 }
 
 _Giải thích từng giá trị_
